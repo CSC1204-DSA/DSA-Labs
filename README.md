@@ -1,4 +1,4 @@
-# Data Structures and Algorithms Tutorial
+# CSC 1204 Data Structures and Algorithms Tutorial
 
 This repository provides a comprehensive guide to data structures, algorithms, and additional programming concepts aimed at beginners and intermediate programmers (undergraduate students) to improve their coding skills. Below is an outline of the contents provided in this repository.
 
