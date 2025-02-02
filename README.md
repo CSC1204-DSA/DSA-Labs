@@ -50,3 +50,9 @@ Methods and tools for writing effective unit tests in Python.
 
 ### 13. 👷‍ Mini-Projects
 Mini-projects to apply what you've learned in real-world scenarios.
+
+### 14. ‍🤯 MoMTSim Codebase (optimizing as a library)
+Implement MoMTSim (Mobile Money Transaction Simulator) as a library other than an Application
+
+### 15. ‍🤩 Group Relative Policy Optimization (GRPO) in DeepSeekMath
+Enhancing mathematical reasoning abilities and optimizing memory usage in LLMs
