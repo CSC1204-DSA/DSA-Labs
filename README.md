@@ -5,7 +5,7 @@ This repository provides a comprehensive guide to data structures, algorithms, a
 ## Table of Contents
 
 ### 1. 📚 Resources
-Reading materials for a thorough understanding of the subjects covered:
+Reading materials for a thorough understanding of the topics covered:
    - "Data Structures and Algorithm Analysis in C++" by Mark Allen Weiss, 4th Edition, 2014.
    - "Data Structures and Algorithms in Python" by Michael T. Goodrich, Roberto Tamassia, and Michael H. Goldwasser, 2013.
    - "Data Structures and Algorithms" by Alfred V. Aho, John E. Hopcroft, and Jeffrey D. Ullman, 1983.
