@@ -1,26 +1,31 @@
-# Importing the time module to measure the execution time
+# Import the time module to measure execution time
 import time
 
-# Creating arrays of different sizes filled with the string 'nemo'
-array_small = ['nemo' for i in range(10)]
-array_medium = ['nemo' for i in range(100)]
-array_large = ['nemo' for i in range(10000)]
-array_large2 = ['nemo' for i in range(100000)]
+# Create arrays of different sizes, filling each with the string 'CoCIS'
+array_small = ['CoCIS' for i in range(10)]        # Array with 10 elements
+array_medium = ['CoCIS' for i in range(100)]      # Array with 100 elements
+array_large = ['CoCIS' for i in range(10000)]     # Array with 10,000 elements
+array_large2 = ['CoCIS' for i in range(100000)]   # Array with 100,000 elements
 
-# Define a function to iterate through an array and measure the time taken
 def finding_nemo(array):
-    t0 = time.time()  # Start time
+    """
+    Iterates over each element in the given array and measures the
+    total time taken to do so. Demonstrates O(n) time complexity
+    since the loop runs 'n' times, where 'n' is the size of the array.
+    """
+    t0 = time.time()  # Record the start time
     for i in array:
-        pass  # Pass statement is a placeholder, does nothing but can be replaced with actual logic
-    t1 = time.time()  # End time
-    print(f'Time taken = {t1 - t0}')  # Print the time taken for the loop to execute
+        pass          # Placeholder for actual logic, does nothing here
+    t1 = time.time()  # Record the end time
+    print(f"Time taken = {t1 - t0}")
 
-# Call the function with different arrays to observe time taken
-finding_nemo(array_small)  # Expect short time for small array
-finding_nemo(array_medium)  # Expect longer time for medium array
-finding_nemo(array_large)  # Longer time for large array
-finding_nemo(array_large2)  # Even longer time for largest array
+# Call the function with each array and observe that time taken grows with array size
+finding_nemo(array_small)   # Expect minimal time for the small array
+finding_nemo(array_medium)  # Expect more time for a larger array
+finding_nemo(array_large)   # Expect even longer time
+finding_nemo(array_large2)  # Expect the longest time
 
-# The function's time complexity is O(n), where n is the number of elements in the array.
-# The time taken to execute the function increases with the size of the array.
-# This demonstrates linear time complexity.
+# Explanation:
+# The time complexity is O(n) because we iterate through all elements
+# of the array. As 'n' (the number of elements) increases,
+# the total execution time increases linearly.
